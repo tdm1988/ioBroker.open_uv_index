@@ -20,6 +20,7 @@ Open UV Index integration to get sun UV report for your location.
 ## Changelog
 <!-- ### __WORK IN PROGRESS__ -->
 ### __WORK IN PROGRESS__
+* (Gerrit Eichel) - Initial release.
 
 ## License
 MIT License
