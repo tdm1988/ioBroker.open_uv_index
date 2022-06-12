@@ -1,0 +1,46 @@
+{
+	"cli": true,
+	"target": "directory",
+	"adapterName": "open_uv_index",
+	"title": "Open UV Index",
+	"description": "Open UV Index integration to get sun UV report for your location.",
+	"keywords": [
+		"weather",
+		"sun",
+		"uv index",
+		"forecast"
+	],
+	"expert": "yes",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "weather",
+	"startMode": "schedule",
+	"scheduleStartOnChange": "yes",
+	"connectionType": "cloud",
+	"dataSource": "poll",
+	"connectionIndicator": "yes",
+	"language": "JavaScript",
+	"adminReact": "no",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"i18n": "words.js",
+	"releaseScript": "yes",
+	"devServer": "yes",
+	"devServerPort": 8081,
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "no",
+	"authorName": "Gerrit Eichel",
+	"authorGithub": "tdm1988",
+	"authorEmail": "gerrit.eichel@web.de",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "yes",
+	"defaultBranch": "main",
+	"license": "MIT License",
+	"dependabot": "no",
+	"creatorVersion": "2.1.1"
+}

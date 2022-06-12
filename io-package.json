@@ -1,0 +1,186 @@
+{
+    "common": {
+        "name": "open_uv_index",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "Initial release.",
+                "de": "Erstveröffentlichung.",
+                "ru": "Первый выпуск.",
+                "pt": "Lançamento inicial.",
+                "nl": "Eerste uitgave.",
+                "fr": "Première version.",
+                "it": "Versione iniziale.",
+                "es": "Versión inicial.",
+                "pl": "Pierwsze wydanie.",
+                "zh-cn": "初始发行。"
+            }
+        },
+        "titleLang": {
+            "en": "Open UV Index",
+            "de": "Open UV Index",
+            "ru": "Open UV Index",
+            "pt": "Open UV Index",
+            "nl": "Open UV Index",
+            "fr": "Open UV Index",
+            "it": "Open UV Index",
+            "es": "Open UV Index",
+            "pl": "Open UV Index",
+            "zh-cn": "Open UV Index"
+        },
+        "desc": {
+            "en": "Open_UV Index integration to get sun UV report for your location.",
+            "de": "Open_UV-Index-Integration, um einen Sonnen-UV-Bericht für Ihren Standort zu erhalten.",
+            "ru": "Интеграция Open_UV Index для получения отчета об УФ-излучении солнца для вашего местоположения.",
+            "pt": "Integração do índice Open_UV para obter o relatório UV do sol para sua localização.",
+            "nl": "Open_UV Index-integratie om een UV-rapport van de zon voor uw locatie te krijgen.",
+            "fr": "Intégration Open_UV Index pour obtenir le rapport UV du soleil pour votre emplacement.",
+            "it": "Integrazione dell'indice Open_UV per ottenere il rapporto UV del sole per la tua posizione.",
+            "es": "Integración del índice Open_UV para obtener el informe UV del sol para su ubicación.",
+            "pl": "Integracja Open_UV Index w celu uzyskania raportu UV dla Twojej lokalizacji.",
+            "zh-cn": "Open_UV Index 集成以获取您所在位置的太阳紫外线报告。"
+        },
+        "authors": [
+            "Gerrit Eichel <gerrit.eichel@web.de>"
+        ],
+        "keywords": [
+            "weather",
+            "sun",
+            "uv index",
+            "forecast"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "open_uv_index.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/tdm1988/ioBroker.open_uv_index/main/admin/open_uv_index.png",
+        "readme": "https://github.com/tdm1988/ioBroker.open_uv_index/blob/main/README.md",
+        "loglevel": "info",
+        "mode": "schedule",
+        "schedule": "15 */1 * * *",
+        "allowInit": true,
+        "type": "weather",
+        "compact": true,
+        "connectionType": "cloud",
+        "dataSource": "poll",
+        "materialize": true,
+        "adminUI": {
+            "config": "json"
+        },
+        "dependencies": [
+            {
+                "js-controller": ">=3.3.19"
+            }
+        ],
+        "globalDependencies": [
+            {
+                "admin": ">=5.1.28"
+            }
+        ]
+    },
+    "native": {
+        "apiKey": ""
+    },
+    "objects": [],
+    "instanceObjects": [
+        {
+            "_id": "actual_uv_index",
+            "type": "state",
+            "common": {
+                "role": "indicator",
+                "name": {
+                    "en": "Current reported UV Index.",
+                    "de": "Aktuell gemeldeter UV-Index.",
+                    "ru": "Текущий сообщаемый УФ-индекс.",
+                    "pt": "Índice UV atual relatado.",
+                    "nl": "Huidige gerapporteerde UV-index.",
+                    "fr": "Indice UV actuel rapporté.",
+                    "it": "Indice UV attuale riportato.",
+                    "es": "Índice UV informado actual.",
+                    "pl": "Aktualny raportowany indeks UV.",
+                    "zh-cn": "当前报告的紫外线指数。"
+                },
+                "type": "number",
+                "unit": "mW/m²",
+                "read": true,
+                "write": false,
+                "def": 0
+            },
+            "native": {}
+        },
+        {
+            "_id": "max_uv_index",
+            "type": "state",
+            "common": {
+                "role": "indicator",
+                "name": {
+                    "en": "Max UV index of the day.",
+                    "de": "Maximaler UV-Index des Tages.",
+                    "ru": "Максимальный УФ-индекс дня.",
+                    "pt": "Índice UV máximo do dia.",
+                    "nl": "Max UV-index van de dag.",
+                    "fr": "Indice UV max du jour.",
+                    "it": "Indice UV massimo della giornata.",
+                    "es": "Índice UV máximo del día.",
+                    "pl": "Maksymalny wskaźnik UV dnia.",
+                    "zh-cn": "当天的最大紫外线指数。"
+                },
+                "type": "number",
+                "unit": "mW/m²",
+                "read": true,
+                "write": false,
+                "def": 0
+            },
+            "native": {}
+        },
+        {
+            "_id": "uv_strength",
+            "type": "state",
+            "common": {
+                "role": "indicator",
+                "name": {
+                    "en": "The current UV strength.",
+                    "de": "Die aktuelle UV-Stärke.",
+                    "ru": "Текущая сила ультрафиолета.",
+                    "pt": "A força UV atual.",
+                    "nl": "De huidige UV-sterkte.",
+                    "fr": "La force UV actuelle.",
+                    "it": "L'attuale forza UV.",
+                    "es": "La intensidad UV actual.",
+                    "pl": "Aktualna siła UV.",
+                    "zh-cn": "当前的紫外线强度。"
+                },
+                "type": "string",
+                "read": true,
+                "write": false,
+                "def": "Unknown"
+            },
+            "native": {}
+        },
+        {
+            "_id": "uv_warning",
+            "type": "state",
+            "common": {
+                "role": "indicator",
+                "name": {
+                    "en": "Flag to indicate a UV warning if max UV value is higher or equal 6 mW/m.",
+                    "de": "Flag zur Anzeige einer UV-Warnung, wenn der maximale UV-Wert größer oder gleich 6 mW/m ist.",
+                    "ru": "Флаг для индикации предупреждения об УФ-излучении, если максимальное значение УФ-излучения выше или равно 6 мВт/м.",
+                    "pt": "Sinalizador para indicar um aviso UV se o valor máximo de UV for maior ou igual a 6 mW/m.",
+                    "nl": "Vlag om een UV-waarschuwing aan te geven als de maximale UV-waarde hoger of gelijk is aan 6 mW/m.",
+                    "fr": "Drapeau pour indiquer un avertissement UV si la valeur UV max est supérieure ou égale à 6 mW/m.",
+                    "it": "Flag per indicare un avviso UV se il valore UV massimo è maggiore o uguale a 6 mW/m.",
+                    "es": "Bandera para indicar una advertencia de UV si el valor máximo de UV es mayor o igual a 6 mW/m.",
+                    "pl": "Flaga wskazująca ostrzeżenie UV, jeśli maksymalna wartość UV jest wyższa lub równa 6 mW/m.",
+                    "zh-cn": "如果最大 UV 值高于或等于 6 mW/m，则标记以指示 UV 警告。"
+                },
+                "type": "boolean",
+                "read": true,
+                "write": false,
+                "def": false
+            },
+            "native": {}
+        }
+    ]
+}
