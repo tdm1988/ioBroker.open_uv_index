@@ -1,6 +1,6 @@
 {
   "name": "iobroker.open_uv_index",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Open UV Index integration to get sun UV report for your location.",
   "author": {
     "name": "Gerrit Eichel",
