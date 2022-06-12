@@ -1,4 +1,4 @@
-![Logo](admin/_open_uv_index.png)
+![Logo](admin/open_uv_index.png)
 # ioBroker.open_uv_index
 
 ![NPM version](https://img.shields.io/npm/v/iobroker.open_uv_index.svg)](https://www.npmjs.com/package/ioBroker.open_uv_index)
