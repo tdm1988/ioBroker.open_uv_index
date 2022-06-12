@@ -3,6 +3,18 @@
         "name": "open_uv_index",
         "version": "0.0.1",
         "news": {
+            "0.0.2": {
+                "en": "Adapter requests actual UV report every 15 minutes from 06:00 to 21:00.",
+                "de": "Adapter fordert den aktuellen UV-Bericht alle 15 Minuten von 06:00 bis 21:00 an.",
+                "ru": "Адаптер запрашивает фактический UV отчет каждые 15 минут с 06:00 до 21:00.",
+                "pt": "O adaptador solicita o relatório UV real a cada 15 minutos das 06:00 às 21:00.",
+                "nl": "Adapter vraagt om werkelijke UV-rapport elke 15 minuten van 06:00 tot 21.00 uur.",
+                "fr": "Adaptateur demande un rapport UV réel toutes les 15 minutes de 06:00 à 21:00.",
+                "it": "Adattatore richiede report UV effettivo ogni 15 minuti dalle 06:00 alle 21:00.",
+                "es": "Adaptador solicita un informe UV real cada 15 minutos de 06:00 a 21:00.",
+                "pl": "Adapter zażądał, aby aktualny raport UV wyniósł co 15 minut od 06:00 do 21:00.",
+                "zh-cn": "要求实际的UV报告每15分钟从0时到21:00。."
+            },
             "0.0.1": {
                 "en": "Initial release.",
                 "de": "Erstveröffentlichung.",
