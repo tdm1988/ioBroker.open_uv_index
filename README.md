@@ -1,7 +1,7 @@
 ![Logo](admin/open_uv_index.png)
 # ioBroker.open_uv_index
 
-![NPM version](https://img.shields.io/npm/v/iobroker.open_uv_index.svg)](https://www.npmjs.com/package/ioBroker.open_uv_index)
+<!--![NPM version](https://img.shields.io/npm/v/iobroker.open_uv_index.svg)](https://www.npmjs.com/package/iobroker.open_uv_index)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.open_uv_index.svg)](https://www.npmjs.com/package/ioBroker.open_uv_index)
 ![Number of Installations](https://iobroker.live/badges/open_uv_index-installed.svg)
 ![Current version in stable repository](https://iobroker.live/badges/open_uv_index-stable.svg)
@@ -10,6 +10,7 @@
 [![NPM](https://nodei.co/npm/iobroker.open_uv_index.png?downloads=true)](https://nodei.co/npm/iobroker.open_uv_index/)
 
 **Tests:** ![Test and Release](https://github.com/gerrit/ioBroker.open_uv_index/workflows/Test%20and%20Release/badge.svg)
+-->
 
 ## open_uv_index adapter for ioBroker
 
