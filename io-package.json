@@ -3,6 +3,18 @@
         "name": "open_uv_index",
         "version": "0.0.2",
         "news": {
+            "0.0.3": {
+                "en": "Fixed: Adapter sends to many requests reaching the free limitation of 50 requests per day.",
+                "de": "Behoben: Adapter sendet zu viele Anfragen, die die freie Einschränkung von 50 Anfragen pro Tag überschreiten.",
+                "ru": "Исправлено: адаптер отправляет на многие запросы, достигающие бесплатного ограничения 50 запросов в день.",
+                "pt": "Corrigido: Adapter envia a muitos pedidos que atingem a limitação gratuita de 50 pedidos por dia.",
+                "nl": "Adapter stuurt veel verzoeken om de vrijheid van 50 verzoeken per dag te bereiken.",
+                "fr": "Correction : l'adaptateur envoie à de nombreuses demandes atteignant la limite libre de 50 demandes par jour.",
+                "it": "Fisso: Adattatore invia a molte richieste che raggiungono la limitazione gratuita di 50 richieste al giorno.",
+                "es": "Fijo: Adaptador envía a muchas solicitudes que llegan a la limitación gratuita de 50 solicitudes por día.",
+                "pl": "Fixed: Adapter wysyła do wielu żądań, aby osiągnąć swobodny limit 50 żądań dziennie.",
+                "zh-cn": "固定:阿帕特派到许多请求,以便每天免费限制50个请求。."
+            },
             "0.0.2": {
                 "en": "Adapter requests actual UV report every 15 minutes from 06:00 to 21:00.",
                 "de": "Adapter fordert den aktuellen UV-Bericht alle 15 Minuten von 06:00 bis 21:00 an.",
