@@ -9,8 +9,8 @@
 const utils = require("@iobroker/adapter-core");
 const axios = require("axios").default;
 
-// Load your modules here, e.g.:
-// const fs = require("fs");
+//** Constants */
+const ERROR_MESSAGE_DAY_LIMIT_REACHED = "AxiosError: Request failed with status code 500";
 
 /**
  * The adapter instance
@@ -162,6 +162,10 @@ async function requestOpenUvIndex() {
 		}
 	} catch (error) {
 		adapter.log.error("FAILED! Open UV api request failed with error <" + error + ">!");
+		if (error.message.includes(ERROR_MESSAGE_DAY_LIMIT_REACHED)) {
+			adapter.log.warn("This error can occur when the limit of <50> requests per day has been reached.");
+			adapter.log.warn("Please check adapter <schedule> settings.");
+		}
 		errorFlag = true;
 	}
 }
