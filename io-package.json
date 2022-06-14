@@ -1,7 +1,7 @@
 {
     "common": {
         "name": "open_uv_index",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "news": {
             "0.0.3": {
                 "en": "Fixed: Adapter sends to many requests reaching the free limitation of 50 requests per day.",
