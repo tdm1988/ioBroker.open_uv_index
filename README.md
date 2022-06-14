@@ -14,7 +14,7 @@ Open UV Index integration to get sun UV report for your location.
 <!-- ### __WORK IN PROGRESS__ -->
 ### __WORK IN PROGRESS__
 * (Gerrit Eichel) - Adapter requests actual UV report every 15 minutes from 07:00 to 18:00.
-* (Gerrit Eichel) - Fixed: Adapter send to many requests reaching the free limitation of 50 requests per day.
+* (Gerrit Eichel) - Fixed: Adapter sends to many requests reaching the free limitation of 50 requests per day.
 
 ### 0.0.2 (2022-06-12)
 * (Gerrit Eichel) - Adapted adapter schedule times.
