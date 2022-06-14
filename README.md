@@ -3,16 +3,7 @@
 # ioBroker.open_uv_index
 
 [![NPM version](https://img.shields.io/npm/v/iobroker.open_uv_index?style=flat-square)](https://www.npmjs.com/package/iobroker.open_uv_index)
-<!--![NPM version](https://img.shields.io/npm/v/iobroker.open_uv_index.svg)](https://www.npmjs.com/package/iobroker.open_uv_index)
-[![Downloads](https://img.shields.io/npm/dm/iobroker.open_uv_index.svg)](https://www.npmjs.com/package/ioBroker.open_uv_index)
-![Number of Installations](https://iobroker.live/badges/open_uv_index-installed.svg)
-![Current version in stable repository](https://iobroker.live/badges/open_uv_index-stable.svg)
-[![Dependency Status](https://img.shields.io/david/gerrit/iobroker.open_uv_index.svg)](https://david-dm.org/gerrit/iobroker.open_uv_index)
-
-[![NPM](https://nodei.co/npm/iobroker.open_uv_index.png?downloads=true)](https://nodei.co/npm/iobroker.open_uv_index/)
-
-**Tests:** ![Test and Release](https://github.com/gerrit/ioBroker.open_uv_index/workflows/Test%20and%20Release/badge.svg)
--->
+[![Downloads](https://img.shields.io/npm/dm/iobroker.open_uv_index?label=npm%20downloads&style=flat-square)](https://www.npmjs.com/package/iobroker.open_uv_index)
 
 Open UV Index integration to get sun UV report for your location.
 
@@ -20,6 +11,10 @@ Open UV Index integration to get sun UV report for your location.
 
 ## Changelog
 <!-- ### __WORK IN PROGRESS__ -->
+### __WORK IN PROGRESS__
+* (Gerrit Eichel) - Adapter requests actual UV report every 15 minutes from 07:00 to 18:00.
+* (Gerrit Eichel) - Fixed: Adapter send to many requests reaching the free limitation of 50 requests per day.
+
 ### 0.0.2 (2022-06-12)
 * (Gerrit Eichel) - Adapted adapter schedule times.
 * (Gerrit Eichel) - Adapter requests actual UV report every 15 minutes from 06:00 to 21:00.
@@ -30,6 +25,7 @@ Open UV Index integration to get sun UV report for your location.
 ## License
 MIT License
 
+Icon from <https://www.flaticon.com/> 
 Copyright (c) 2022 Gerrit Eichel <gerrit.eichel@web.de>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
