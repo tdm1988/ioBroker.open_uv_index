@@ -1,4 +1,5 @@
 ![Logo](admin/open_uv_index.png)
+Icon used from <https://www.flaticon.com/>
 
 # ioBroker.open_uv_index
 
@@ -25,7 +26,6 @@ Open UV Index integration to get sun UV report for your location.
 ## License
 MIT License
 
-Icon from <https://www.flaticon.com/> 
 Copyright (c) 2022 Gerrit Eichel <gerrit.eichel@web.de>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
