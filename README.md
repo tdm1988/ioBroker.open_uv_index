@@ -12,7 +12,7 @@ Open UV Index integration to get sun UV report for your location.
 
 ## Changelog
 <!-- ### __WORK IN PROGRESS__ -->
-### __WORK IN PROGRESS__
+### 0.0.4 (2022-06-18)
 * (Gerrit Eichel) - Added feature to read and report local UV max time.
 
 ### 0.0.3 (2022-06-14)
