@@ -147,6 +147,10 @@ async function requestOpenUvIndex() {
 			// Set adapter variables.
 			await adapter.setStateAsync("actual_uv_index", Math.round(openUVRequest.data.result.uv * 100) / 100, true);
 			await adapter.setStateAsync("max_uv_index", Math.round(openUVRequest.data.result.uv_max * 100) / 100, true);
+			const uvMaxTime = openUVRequest.data.result.uv_max_time;
+			adapter.log.debug("UV Max time in UTC is <" + uvMaxTime + ">.");
+			const uvMaxLocalTime = new Date(uvMaxTime);
+			await adapter.setStateAsync("max_uv_index_time", uvMaxLocalTime.toLocaleTimeString());
 
 			let stateObject = await adapter.getStateAsync("open_uv_index.0.actual_uv_index");
 			if (stateObject) {
@@ -156,6 +160,11 @@ async function requestOpenUvIndex() {
 			stateObject = await adapter.getStateAsync("open_uv_index.0.max_uv_index");
 			if (stateObject) {
 				adapter.log.debug("Adapter variable <max_uv_index> is set to <" + stateObject.val + ">.");
+			}
+
+			stateObject = await adapter.getStateAsync("max_uv_index_time");
+			if (stateObject) {
+				adapter.log.debug("Adapter variable <max_uv_index_time> is set to <" + stateObject.val + ">.");
 			}
 		} else {
 			throw new Error("Could not receive Open UV api response!");
