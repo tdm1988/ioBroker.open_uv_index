@@ -159,6 +159,31 @@
             "native": {}
         },
         {
+            "_id": "max_uv_index_time",
+            "type": "state",
+            "common": {
+                "role": "indicator",
+                "name": {
+                    "en": "Time of the max UV index.",
+                    "de": "Zeit des maximalen UV-Index.",
+                    "ru": "Время максимального УФ-индекса.",
+                    "pt": "Tempo do índice UV máximo.",
+                    "nl": "Tijd van de max UV index.",
+                    "fr": "Temps de l'index UV max.",
+                    "it": "Tempo dell'indice UV max.",
+                    "es": "Tiempo del índice máximo UV.",
+                    "pl": "Time of the max UV index (ang.).",
+                    "zh-cn": "最高乌维克指数的时间。."
+                },
+                "type": "string",
+                "unit": "",
+                "read": true,
+                "write": false,
+                "def": 0
+            },
+            "native": {}
+        },
+        {
             "_id": "uv_strength",
             "type": "state",
             "common": {
