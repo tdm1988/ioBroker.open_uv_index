@@ -12,6 +12,9 @@ Open UV Index integration to get sun UV report for your location.
 
 ## Changelog
 <!-- ### __WORK IN PROGRESS__ -->
+### __WORK IN PROGRESS__
+* (Gerrit Eichel) - Added feature to read and report local UV max time.
+
 ### 0.0.3 (2022-06-14)
 * (Gerrit Eichel) - Adapter requests actual UV report every 15 minutes from 07:00 to 18:00.
 * (Gerrit Eichel) - Fixed: Adapter sends to many requests reaching the free limitation of 50 requests per day.

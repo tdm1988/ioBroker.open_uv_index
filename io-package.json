@@ -3,6 +3,17 @@
         "name": "open_uv_index",
         "version": "0.0.3",
         "news": {
+            "0.0.4": {
+                "en": "Added feature to report local UV max time.",
+                "de": "Funktion hinzugefügt, um lokale UV-Max Zeit zu melden.",
+                "ru": "Добавлена возможность сообщать о местном УФ-макс. времени.",
+                "pt": "Adicionado recurso para relatar local UV máx.",
+                "nl": "Gevoegd kenmerk om de plaatselijke UV max tijd te melden.",
+                "fr": "Ajout de la fonctionnalité pour signaler le temps max UV local.",
+                "it": "Funzione aggiuntiva per segnalare UV locale tempo massimo.",
+                "es": "Función agregada para informar el tiempo máximo UV local.",
+                "pl": "Wykorzystywana jest do raportu czasu lokalnego UV max.",
+                "zh-cn": "报告当地UV max时间的附加特点。."            },
             "0.0.3": {
                 "en": "Fixed: Adapter sends to many requests reaching the free limitation of 50 requests per day.",
                 "de": "Behoben: Adapter sendet zu viele Anfragen, die die freie Einschränkung von 50 Anfragen pro Tag überschreiten.",
