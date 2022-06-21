@@ -12,7 +12,7 @@ Open UV Index integration to get sun UV report for your location.
 
 ## Changelog
 <!-- ### __WORK IN PROGRESS__ -->
-### __WORK IN PROGRESS__
+### 0.0.5 (2022-06-21)
 * (Gerrit Eichel) - Fixed adapter parameter issues which were causing warning messages.
 
 ### 0.0.4 (2022-06-18)
