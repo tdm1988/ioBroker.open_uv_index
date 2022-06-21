@@ -188,10 +188,9 @@
                     "zh-cn": "最高乌维克指数的时间。."
                 },
                 "type": "string",
-                "unit": "",
                 "read": true,
                 "write": false,
-                "def": 0
+                "def": "Unknown"
             },
             "native": {}
         },
