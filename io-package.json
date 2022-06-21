@@ -3,6 +3,18 @@
         "name": "open_uv_index",
         "version": "0.0.4",
         "news": {
+            "0.0.5": {
+                "en": "Fixed adapter parameter issues which were causing warning messages.",
+                "de": "Fixed Adapter Parameter Probleme, die Warnmeldungen verursachen.",
+                "ru": "Исправлены проблемы параметров адаптера, вызывающие предупреждающие сообщения.",
+                "pt": "Corrigido problemas de parâmetros do adaptador que estavam causando mensagens de aviso.",
+                "nl": "Gerepareerde adapter parameter kwesties die waarschuwingsberichten veroorzaakten.",
+                "fr": "Problèmes de paramètres d'adaptateur fixes qui provoquaient des messages d'avertissement.",
+                "it": "Problemi di parametri dell'adattatore fissi che stavano causando messaggi di avviso.",
+                "es": "Problemas del parámetro de adaptador fijo que estaban causando mensajes de advertencia.",
+                "pl": "Wykorzystywane problemy adaptatorowe, które wywołują komunikaty ostrzegawcze.",
+                "zh-cn": "混合的适应参数问题引起警告。."
+            },         
             "0.0.4": {
                 "en": "Added feature to report local UV max time.",
                 "de": "Funktion hinzugefügt, um lokale UV-Max Zeit zu melden.",
