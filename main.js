@@ -150,7 +150,7 @@ async function requestOpenUvIndex() {
 			const uvMaxTime = openUVRequest.data.result.uv_max_time;
 			adapter.log.debug("UV Max time in UTC is <" + uvMaxTime + ">.");
 			const uvMaxLocalTime = new Date(uvMaxTime);
-			await adapter.setStateAsync("max_uv_index_time", uvMaxLocalTime.toLocaleTimeString());
+			await adapter.setStateAsync("max_uv_index_time", uvMaxLocalTime.toLocaleTimeString(), true);
 
 			let stateObject = await adapter.getStateAsync("open_uv_index.0.actual_uv_index");
 			if (stateObject) {
