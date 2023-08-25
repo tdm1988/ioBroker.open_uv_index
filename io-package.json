@@ -16,19 +16,6 @@
                 "uk": "- Додано звіт про значення озону.",
                 "zh-cn": "- 增加臭氧价值报告。."
             },
-            "0.0.6": {
-                "en": "Added report of Ozone value.",
-                "de": "Bericht über den Ozonwert hinzugefügt.",
-                "ru": "Добавлен отчет о стоимости Ozone.",
-                "pt": "Relatório adicional do valor do ozônio.",
-                "nl": "Verslag van Ozone waarde.",
-                "fr": "Ajout du rapport sur la valeur de l ' ozone.",
-                "it": "Aggiunto rapporto di valore di Ozone.",
-                "es": "Añadido informe del valor del ozono.",
-                "pl": "Dodany raport o wartości Ozone.",
-                "uk": "Додано звіт про значення озону.",
-                "zh-cn": "增加臭氧价值报告。."
-            },
             "0.0.5": {
                 "en": "Fixed adapter parameter issues which were causing warning messages.",
                 "de": "Fixed Adapter Parameter Probleme, die Warnmeldungen verursachen.",
