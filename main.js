@@ -144,13 +144,19 @@ async function requestOpenUvIndex() {
 		if (openUVRequest.data && openUVRequest.data.result) {
 			adapter.log.debug("OK. Open UV api request finished successfull.");
 			adapter.log.debug("Open UV api response received <" + JSON.stringify(openUVRequest.data) + ">.");
-			// Set adapter variables.
+
+			// Set UV values.
 			await adapter.setStateAsync("actual_uv_index", Math.round(openUVRequest.data.result.uv * 100) / 100, true);
 			await adapter.setStateAsync("max_uv_index", Math.round(openUVRequest.data.result.uv_max * 100) / 100, true);
+
+			// Set UV max time.
 			const uvMaxTime = openUVRequest.data.result.uv_max_time;
 			adapter.log.debug("UV Max time in UTC is <" + uvMaxTime + ">.");
 			const uvMaxLocalTime = new Date(uvMaxTime);
 			await adapter.setStateAsync("max_uv_index_time", uvMaxLocalTime.toLocaleTimeString(), true);
+
+			// Set Ozone value.
+			await adapter.setStateAsync("ozone", openUVRequest.data.result.ozone, true);
 
 			let stateObject = await adapter.getStateAsync("open_uv_index.0.actual_uv_index");
 			if (stateObject) {
@@ -166,6 +172,12 @@ async function requestOpenUvIndex() {
 			if (stateObject) {
 				adapter.log.debug("Adapter variable <max_uv_index_time> is set to <" + stateObject.val + ">.");
 			}
+
+			stateObject = await adapter.getStateAsync("ozone");
+			if (stateObject) {
+				adapter.log.debug("Adapter variable <ozone> is set to <" + stateObject.val + ">.");
+			}
+
 		} else {
 			throw new Error("Could not receive Open UV api response!");
 		}
@@ -190,7 +202,7 @@ async function setUvStrength() {
 			throw new Error("Could not read <open_uv_index.0.actual_uv_index>!");
 		}
 
-		const uvIndex = stateObject.val;
+		const uvIndex = parseInt(stateObject.val);
 		let uvStrength;
 
 		if ((uvIndex != undefined) && (uvIndex != null)) {
@@ -230,7 +242,7 @@ async function setUvWarning() {
 			throw new Error("Could not read adapter property <open_uv_index.0.max_uv_index>!");
 		}
 
-		const uvIndexMax = stateObject.val;
+		const uvIndexMax = parseInt(stateObject.val);
 
 		if ((uvIndexMax != undefined) && (uvIndexMax != null)) {
 			if (uvIndexMax >= 6) {

@@ -1,8 +1,21 @@
 {
     "common": {
         "name": "open_uv_index",
-        "version": "0.0.5",
+        "version": "0.0.6",
         "news": {
+            "0.0.6": {
+                "en": "Added report of Ozone value.",
+                "de": "Bericht über den Ozonwert hinzugefügt.",
+                "ru": "Добавлен отчет о стоимости Ozone.",
+                "pt": "Relatório adicional do valor do ozônio.",
+                "nl": "Verslag van Ozone waarde.",
+                "fr": "Ajout du rapport sur la valeur de l ' ozone.",
+                "it": "Aggiunto rapporto di valore di Ozone.",
+                "es": "Añadido informe del valor del ozono.",
+                "pl": "Dodany raport o wartości Ozone.",
+                "uk": "Додано звіт про значення озону.",
+                "zh-cn": "增加臭氧价值报告。."
+            },
             "0.0.5": {
                 "en": "Fixed adapter parameter issues which were causing warning messages.",
                 "de": "Fixed Adapter Parameter Probleme, die Warnmeldungen verursachen.",
@@ -251,6 +264,31 @@
                 "read": true,
                 "write": false,
                 "def": false
+            },
+            "native": {}
+        },
+        {
+            "_id": "ozone",
+            "type": "state",
+            "common": {
+                "role": "indicator",
+                "name": {
+                    "en": "The reported ozone value.",
+                    "de": "Der gemeldete Ozonwert.",
+                    "ru": "Об этом сообщается озоновая стоимость.",
+                    "pt": "O valor de ozônio relatado.",
+                    "nl": "De gerapporteerde ozonwaarde.",
+                    "fr": "La valeur d'ozone déclarée.",
+                    "it": "Il valore dell'ozono riportato.",
+                    "es": "El valor de ozono notificado.",
+                    "pl": "Ozone wartości.",
+                    "uk": "Проведено значення озону.",
+                    "zh-cn": "所报告的臭氧价值。."
+                },
+                "type": "number",
+                "read": true,
+                "write": false,
+                "def": 0
             },
             "native": {}
         }
