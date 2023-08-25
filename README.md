@@ -11,8 +11,13 @@ Open UV Index integration to get sun UV report for your location.
 **************************************************************************************************************
 
 ## Changelog
+### **WORK IN PROGRESS**
 ### 0.0.7 (2023-08-25)
+* (Gerrit Eichel) - Skipped release due GitHub workflow / testing issues.
+
+### 0.0.6 (2023-08-25)
 * (Gerrit Eichel) - Added report of Ozone value.
+
 ### 0.0.5 (2022-06-21)
 * (Gerrit Eichel) - Fixed adapter parameter issues which were causing warning messages.
 
