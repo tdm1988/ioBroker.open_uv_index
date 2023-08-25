@@ -1,8 +1,21 @@
 {
     "common": {
         "name": "open_uv_index",
-        "version": "0.0.7",
+        "version": "0.0.8",
         "news": {
+            "0.0.8": {
+                "en": "- Adapted repository to new release workflow.",
+                "de": "- Angepasstes Repository zum neuen Release-Workflow.",
+                "ru": "- Адаптированный репозиторий к новому рабочему теку.",
+                "pt": "- repositório adaptado para novo fluxo de trabalho de lançamento.",
+                "nl": "- Aangepast aan een nieuwe vrijlating.",
+                "fr": "- Un dépôt adapté à un nouveau flux de travail.",
+                "it": "- Repositore adattato al nuovo flusso di lavoro di rilascio.",
+                "es": "- Repositorio adaptado al nuevo flujo de trabajo de liberación.",
+                "pl": "Adaptowane repozytorium nowego przepływu pracy.",
+                "uk": "- Адаптивований репозиторій до нового процесу релізу.",
+                "zh-cn": "- 发放新的释放工作库。."
+            },
             "0.0.7": {
                 "en": "Skipped release due GitHub workflow / testing issues.",
                 "de": "Skipped release due GitHub Workflow / Testprobleme.",
