@@ -12,7 +12,7 @@ Open UV Index integration to get sun UV report for your location.
 
 ## Changelog
 <!--### **WORK IN PROGRESS**-->
-### 0.0.6 (2023-08-25)
+### 0.0.9 (2023-08-25)
 * (Gerrit Eichel) - Added report of Ozone value.
 
 ### 0.0.5 (2022-06-21)

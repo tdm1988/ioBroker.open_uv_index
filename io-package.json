@@ -4,45 +4,6 @@
         "version": "0.0.9",
         "news": {
             "0.0.9": {
-                "en": "- Adapted repository to new release workflow.",
-                "de": "- Angepasstes Repository zum neuen Release-Workflow.",
-                "ru": "- Адаптированный репозиторий к новому рабочему теку.",
-                "pt": "- repositório adaptado para novo fluxo de trabalho de lançamento.",
-                "nl": "- Aangepast aan een nieuwe vrijlating.",
-                "fr": "- Un dépôt adapté à un nouveau flux de travail.",
-                "it": "- Repositore adattato al nuovo flusso di lavoro di rilascio.",
-                "es": "- Repositorio adaptado al nuevo flujo de trabajo de liberación.",
-                "pl": "Adaptowane repozytorium nowego przepływu pracy.",
-                "uk": "- Адаптивований репозиторій до нового процесу релізу.",
-                "zh-cn": "- 发放新的释放工作库。."
-            },
-            "0.0.8": {
-                "en": "Skipped release due GitHub workflow / testing issues.",
-                "de": "Skipped release due GitHub Workflow / Testprobleme.",
-                "ru": "Skipped release due GitHub workflow / проблемы тестирования.",
-                "pt": "Desbloqueado devido problemas de fluxo de trabalho / teste GitHub.",
-                "nl": "Verloofde vrijlating door GitHub werkvloer / test kwesties.",
-                "fr": "Démarrage passé dû à GitHub / problèmes de test.",
-                "it": "Rilascio saltato dovuto GitHub workflow / problemi di test.",
-                "es": "Salto de liberación debido GitHub workflow / problemas de prueba.",
-                "pl": "Wydarzenia ze strony GitHub / Problemy testowe.",
-                "uk": "Випробувано з GitHub.",
-                "zh-cn": "由于GitHub工作流出/试验问题,释放了基伍。."
-            },
-            "0.0.7": {
-                "en": "Skipped release due GitHub workflow / testing issues.",
-                "de": "Skipped release due GitHub Workflow / Testprobleme.",
-                "ru": "Skipped release due GitHub workflow / проблемы тестирования.",
-                "pt": "Desbloqueado devido problemas de fluxo de trabalho / teste GitHub.",
-                "nl": "Verloofde vrijlating door GitHub werkvloer / test kwesties.",
-                "fr": "Démarrage passé dû à GitHub / problèmes de test.",
-                "it": "Rilascio saltato dovuto GitHub workflow / problemi di test.",
-                "es": "Salto de liberación debido GitHub workflow / problemas de prueba.",
-                "pl": "Wydarzenia ze strony GitHub / Problemy testowe.",
-                "uk": "Випробувано з GitHub.",
-                "zh-cn": "由于GitHub工作流出/试验问题,释放了基伍。."
-            },
-            "0.0.6": {
                 "en": "- Added report of Ozone value.",
                 "de": "- Bericht über den Ozonwert.",
                 "ru": "- Добавлен отчет о стоимости Ozone.",
