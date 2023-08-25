@@ -12,6 +12,7 @@ Open UV Index integration to get sun UV report for your location.
 
 ## Changelog
 ### **WORK IN PROGRESS**
+* (Gerrit Eichel) - Adapted repository to new release workflow.
 ### 0.0.7 (2023-08-25)
 * (Gerrit Eichel) - Skipped release due GitHub workflow / testing issues.
 
