@@ -1,8 +1,21 @@
 {
     "common": {
         "name": "open_uv_index",
-        "version": "0.0.6",
+        "version": "0.0.7",
         "news": {
+            "0.0.7": {
+                "en": "- Added report of Ozone value.",
+                "de": "- Bericht über den Ozonwert.",
+                "ru": "- Добавлен отчет о стоимости Ozone.",
+                "pt": "- Relatório adicional do valor do ozônio.",
+                "nl": "- Verslag van Ozone waarde.",
+                "fr": "- Ajout du rapport sur la valeur de l'ozone.",
+                "it": "- Aggiunto rapporto di valore dell'ozono.",
+                "es": "- Informe añadido de valor de la zona.",
+                "pl": "Added report of the Ozone value (ang.).",
+                "uk": "- Додано звіт про значення озону.",
+                "zh-cn": "- 增加臭氧价值报告。."
+            },
             "0.0.6": {
                 "en": "Added report of Ozone value.",
                 "de": "Bericht über den Ozonwert hinzugefügt.",
